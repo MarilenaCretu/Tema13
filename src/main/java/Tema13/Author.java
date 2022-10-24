@@ -3,7 +3,8 @@ package Tema13;
 public class Author {
     String author;
     String allQuotes;
-    String favorite;
+    String favourite;
+    String QuotesForAuthor;
 
     public String getAuthor(){
         return author;
@@ -11,10 +12,14 @@ public class Author {
     public String getAllQuotes(){
         return allQuotes;
     }
-    public void setFavorite(){
-        this.favorite = favorite;
+    public void setFavourite(){
+        this.favourite = favourite;
     }
-    public String getFavorite(){
-        return favorite;
+    public String getFavourite(){
+        return favourite;
     }
+    public String getQuotesForAuthor() {
+        return QuotesForAuthor;
+    }
+
 }
