@@ -2,13 +2,14 @@ package Tema13;
 
 public class Author {
     String author;
-    String quote;
+    String allQuote;
     String favorite;
-    public String getAuthorget(){
+
+    public String getAuthor(){
         return author;
     }
-    public String getQuote(){
-        return quote;
+    public String getAllQuote(){
+        return allQuote;
     }
     public void setFavorite(){
         this.favorite = favorite;
